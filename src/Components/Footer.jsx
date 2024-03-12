@@ -1,7 +1,7 @@
 export default function Footer(){
 
     return(
-        <footer>
+        <footer class="navfooter">
             <br></br>
             <br></br>
             <h1>"Deveríamos ser como borboletas,

@@ -1,17 +1,37 @@
 header{
-    height: 100px;
-    background-color: aquamarine;
+    height: 200px;
+    background-color: rgb(174, 97, 204);
     text-align: center;
+    font-style: italic;
 }
 
 footer{
-    height: 100px;
-    background-color: aquamarine;
+    height: 200px;
+    margin-top: 200px;
+    background-color: rgb(174, 97, 204);
     text-align: center;
+    font-style: italic;
 }
 
 main{
-    height: 70px;
-    background-color: rgb(101, 104, 106);
-    align-items: center;
+    height: 300px;
+    background-color: rgba(229, 204, 238, 0.882);
+    text-align: center;
+    font-style: italic;
+    margin-left: 500px;
+    margin-right: 500px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+footer h1{
+    padding-top: 150px;
+}
+
+header h1{
+    padding-top: 50px;
+}
+
+form input{
+    margin-top: 50px;
 }

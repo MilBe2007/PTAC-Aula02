@@ -9,7 +9,7 @@ export default function Main(){
         <main>
             <form>
                 <label htmlForm="Nome">
-                    Nome de Contato
+                    Nome:
                 </label>
             <input 
             type="text" 
@@ -17,17 +17,22 @@ export default function Main(){
             id="Nome" 
             onChange={(event)=> setNome(event.target.value)}/>
                 <label htmlForm="telefone">
-                    Número do Contato
+                    Telefone:
                 </label>  
                 <input
                 type="tel"
                 tel=""
                 id="telefone"
                 onChange={(event)=> setTel(event.target.value)}/>
+
+                <button>
+                    Salvar
+                </button>
             </form>
             
 
             {nome}
+            {telefone}
         </main>
     );
 }

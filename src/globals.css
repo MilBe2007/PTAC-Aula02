@@ -1,5 +1,5 @@
 header{
-    height: 200px;
+    height: 100px;
     background-color: rgb(174, 97, 204);
     text-align: center;
     font-style: italic;
@@ -20,7 +20,7 @@ main{
     font-style: italic;
     margin-left: 500px;
     margin-right: 500px;
-    margin-top: 50px;
+    margin-top: 150px;
     margin-bottom: 50px;
 }
 
@@ -34,4 +34,12 @@ header h1{
 
 form input{
     margin-top: 50px;
+}
+
+button{
+    background-color: #d58cfc;
+}
+
+button:hover{
+    background-color: #b246f2;
 }

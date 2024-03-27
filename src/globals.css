@@ -1,0 +1,17 @@
+header{
+    height: 100px;
+    background-color: aquamarine;
+    text-align: center;
+}
+
+footer{
+    height: 100px;
+    background-color: aquamarine;
+    text-align: center;
+}
+
+main{
+    height: 70px;
+    background-color: rgb(101, 104, 106);
+    align-items: center;
+}

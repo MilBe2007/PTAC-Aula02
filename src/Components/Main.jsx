@@ -4,6 +4,7 @@ export default function Main(){
 
     const [nome, setNome] = useState("");
     const [telefone, setTel] = useState("");
+    const [Conta, setEmail] = useState("");
     const [listaContatos, setContatos] = useState( [ ] );
 
     const registrar = (event) => {
@@ -12,7 +13,8 @@ export default function Main(){
         sertContatos([...listaContatos,
         {
             nomeSalvo: nome,
-            telefone: telefone
+            telefone: telefone,
+            email: Conta 
         }
     ])
     }
@@ -38,6 +40,16 @@ export default function Main(){
                 tel=""
                 id="telefone"
                 onChange={(event)=> setTel(event.target.value)}/>
+               
+               <label htmlFor="email">
+                    Email:  
+                </label>
+            <input 
+            type="text" 
+            name="" 
+            id="Conta" 
+            onChange={(event)=> setEmail(event.target.value)}/>
+
 
                 <button>
                     Salvar
@@ -46,6 +58,7 @@ export default function Main(){
 
             {nome}
             {telefone}
+            {Conta}
         </main>
     );
 }
